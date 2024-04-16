@@ -1,0 +1,203 @@
+body {
+  padding: 0px;
+  margin: 0;
+}
+
+.header-box {
+  background-color: burlywood;
+  display: flex;
+  height: 70px;
+  font-family: Signika;
+  font-size: 30px;
+}
+
+
+.header {
+  display: flex;
+  margin-top: 10px;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+.left-side-header {
+  flex: 1;
+}
+
+.right-side-header {
+  width: 400px;
+  display: flex;
+  flex: 3;
+  justify-content: space-between;
+  margin-left: 500px;
+}
+
+.link:hover {
+  cursor: pointer;
+}
+
+.welcome-box {
+  background-color: burlywood;
+  height: 500px;
+  display: flex;
+  font-family: pacifico;
+}
+
+.left-side-welcome-box {
+  flex: 1;
+  flex-direction: column;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  margin-right: 40px;
+}
+
+.welcome-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+  width: 340px;
+}
+
+.welcome-description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  height: 50px;
+  width: 340px;
+}
+
+.donate-container {
+  border-width: 3px;
+  margin-right: 130px;
+}
+
+.donate-button {
+  font-size: 20px;
+  font-family: signika;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.donate-button:hover {
+  cursor: pointer;
+}
+
+.right-side-welcome-box {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-image {
+  height: 400px;
+  border-radius: 20px;
+  margin-right: 200px;
+}
+
+.picture-box {
+  background-color: whitesmoke;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.picture-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  margin-bottom: 35px;
+  font-family: pacifico;
+}
+
+.pictures {
+  display: flex;
+}
+
+.pictures img {
+  display: flex;
+  height: 200px;
+  width: 200px;
+  border: solid;
+  border-width: 3px;
+  border-color: black;
+  border-radius: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.quote-box {
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  font-size: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.quote {
+  font-family: Lobster;
+}
+
+.author {
+  margin-left: 980px;
+  font-family: signika;
+}
+
+.donate-box {
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+
+.donate-inner-box {
+  display: flex;
+  width: 600px;
+  height: 70px;
+}
+
+.donate-text {
+font-family: pacifico;
+font-size: 40px;
+margin-left: 40px;
+}
+
+.donate-box-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  height: 40px;
+  margin-left: 50px;
+  margin-top: 15px;
+  font-family: signika;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.donate-box-button:hover {
+  cursor: pointer;
+}
+
+.copyright {
+  font-family: signika;
+  background-color: burlywood;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+}
+
+
